@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="140327" started-at="2019-08-10T16:22:39Z" finished-at="2019-08-10T16:25:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="140327" started-at="2019-08-10T16:22:39Z" finished-at="2019-08-10T16:25:00Z">
+      <class name="learnCacheLookup.CacheLookupClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:learnCacheLookup.CacheLookupClass@29774679]" name="setUp" is-config="true" duration-ms="12930" started-at="2019-08-10T16:22:39Z" finished-at="2019-08-10T16:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="withoutCacheLookup()[pri:1, instance:learnCacheLookup.CacheLookupClass@29774679]" name="withoutCacheLookup" duration-ms="32977" started-at="2019-08-10T16:22:52Z" finished-at="2019-08-10T16:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutCacheLookup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:learnCacheLookup.CacheLookupClass@29774679]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-08-10T16:23:25Z" finished-at="2019-08-10T16:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:learnCacheLookup.CacheLookupClass@29774679]" name="setUp" is-config="true" duration-ms="80856" started-at="2019-08-10T16:23:26Z" finished-at="2019-08-10T16:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="withCacheLookup()[pri:2, instance:learnCacheLookup.CacheLookupClass@29774679]" name="withCacheLookup" duration-ms="11968" started-at="2019-08-10T16:24:47Z" finished-at="2019-08-10T16:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withCacheLookup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:learnCacheLookup.CacheLookupClass@29774679]" name="tearDown" is-config="true" duration-ms="754" started-at="2019-08-10T16:24:59Z" finished-at="2019-08-10T16:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- learnCacheLookup.CacheLookupClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
