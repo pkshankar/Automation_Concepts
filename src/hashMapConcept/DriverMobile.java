@@ -15,9 +15,9 @@ public class DriverMobile {
 
 		hMapMobObj.put(3, new Mobile("Apple", 2017, 800));
 
-		hMapMobObj.put(2, new Mobile("Sony", 2011, 650));
+		hMapMobObj.put(4, new Mobile("Sony", 2011, 650));
 
-		hMapMobObj.put(3, new Mobile("Lenovo", 2018, 230));
+		hMapMobObj.put(5, new Mobile("Lenovo", 2018, 230));
 
 		for (Map.Entry<Integer, Mobile> mobDetails : hMapMobObj.entrySet()) {
 
