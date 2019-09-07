@@ -15,7 +15,7 @@ public class FirefoxImagesDisable {
 		disableImagesonFirefox(options);
 		WebDriver driver = new FirefoxDriver(options);
 		driver.get("https://www.amazon.com");
-		System.out.println(driver.getTitle());
+		driver.manage().window().fullscreen();
 
 	}
 

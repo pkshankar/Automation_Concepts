@@ -17,7 +17,7 @@ public class ChromeImagesDisable {
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.amazon.com");
 		driver.manage().window().fullscreen();
-		System.out.println(driver.getTitle());
+		
 
 	}
 
