@@ -12,17 +12,17 @@ public class CheckPrimeNumber {
 
 	public static void main(String[] args) {
 
-		//CheckPrimeNumber.checkPrimeMethod1(571);
+		CheckPrimeNumber.checkPrimeMethod1(29);
 
-		Object[] obj = CheckPrimeNumber.checkPrimeMethod2(2050211);
-
-		if (obj[0].equals(true)) {
-
-			System.out.println(obj[1] + " IS A PRIME NUMBER");
-		} else {
-
-			System.out.println(obj[1] + " IS NOT A PRIME NUMBER");
-		}
+//		Object[] obj = CheckPrimeNumber.checkPrimeMethod2(2147483647);
+//
+//		if (obj[0].equals(true)) {
+//
+//			System.out.println(obj[1] + " IS A PRIME NUMBER");
+//		} else {
+//
+//			System.out.println(obj[1] + " IS NOT A PRIME NUMBER");
+//		}
 
 	}
 	
