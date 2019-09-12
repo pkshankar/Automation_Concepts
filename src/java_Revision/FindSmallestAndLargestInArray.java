@@ -4,7 +4,7 @@ public class FindSmallestAndLargestInArray {
 
 	public static void main(String[] args) {
 
-		int numArr[] = { -9, -5, 0, 8 , -269, 78};
+		int numArr[] = { -9, -5, 0, 8, -269, 78 };
 		System.out.println("SMALLEST NUMBER IN THE GIVEN ARRAY IS " + findSmallest(numArr));
 		System.out.println("LARGEST NUMBER IN THE GIVEN ARRAY IS " + findLargest(numArr));
 
