@@ -18,7 +18,7 @@ public class WriteDatatabletoExcel {
 	public static void main(String[] args) throws IOException {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\pkshank\\eclipse-workspace\\Automation_Concepts\\Browser_Drivers\\chromedriver.exe");
+				"C:\\Users\\pkshank\\eclipse-workspace\\MakeMyTrip_Framework\\Browser Drivers\\chromedriver_New.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.w3schools.com/html/html_tables.asp");
 		driver.manage().window().maximize();
