@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="learnTestNG.RetryConcept">
+      <class name="learnTestNG.CacheLookupConcept">
         <methods>
-          <include name="test1"/>
-          <include name="test2"/>
+          <include name="enterText"/>
         </methods>
-      </class> <!-- learnTestNG.RetryConcept -->
+      </class> <!-- learnTestNG.CacheLookupConcept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

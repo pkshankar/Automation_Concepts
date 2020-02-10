@@ -16,18 +16,28 @@ public class SeleniumGridConcept {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//DesiredCapabilities cap = DesiredCapabilities.firefox();
 		cap.setBrowserName("chrome");
-		cap.setPlatform(Platform.WIN10);
+		cap.setPlatform(Platform.MAC);
 		
 
 		ChromeOptions options = new ChromeOptions();
 		options.merge(cap);
 
-		String hubUrl = "http://10.207.187.138:4444/wd/hub";
+		String hubUrl = "http://10.207.184.38:4444/wd/hub";
 		//System.out.println(hubUrl);
 
 		WebDriver driver = new RemoteWebDriver(new URL(hubUrl), cap);
 		
 		driver.get("www.google.com");
+		
+//			String URL = "http://www.DemoQA.com";
+//		 String Node = "http://10.207.184.38:4444/wd/hub";
+//		 DesiredCapabilities cap = DesiredCapabilities.firefox();
+//		 
+//		 WebDriver driver = new RemoteWebDriver(new URL(Node), cap);
+//		 
+//		 driver.navigate().to(URL);
+//		 
+//		 driver.quit();
 	}
 
 }
