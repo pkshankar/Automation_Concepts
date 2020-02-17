@@ -12,7 +12,7 @@ public class Runner {
 		Employee e3 = new Employee("Zuke", 23);
 		Employee e4 = new Employee("John", 35);
 
-		Map<Employee, String> map = new HashMap<Employee, String>();
+		HashMap<Employee, String> map = new HashMap<Employee, String>();
 		map.put(e1, "Director");
 		map.put(e2, "VP");
 		map.put(e3, "Executive");
