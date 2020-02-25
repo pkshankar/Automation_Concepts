@@ -38,5 +38,6 @@
 	<classpathentry kind="lib" path="C:/Users/pkshank/Downloads/screenshot-1.0.jar/screenshot-1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pkshank/Downloads/pdfbox-1.8.2-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/pkshank/Downloads/htmlunit-driver-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pkshank/Downloads/webdrivermanager-3.8.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
